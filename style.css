@@ -47,3 +47,7 @@ header {
   border-bottom: 2rem dashed grey;
 
 }
+
+#ingredients {
+  background-image: url("img/list-bg.png");
+}
