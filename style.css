@@ -33,3 +33,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+header {
+  
+}
+.flex {
+  display: flex;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.bottom-border {
+  border-bottom: 2rem dashed grey;
+
+}
