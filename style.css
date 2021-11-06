@@ -1,13 +1,17 @@
 /* Generic starter basestyles */
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 /* font-family: 'Yellowtail', cursive; */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 /* font-family: 'Oswald', sans-serif; */
 
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+/*font-family: 'Bitter', serif;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+/* font-family: 'Patrick Hand', cursive; */
 
 html {
-
 }
 * {
   box-sizing: border-box;
@@ -20,42 +24,40 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
-
+h1,
+h2,
+h3,
+h4 {
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 38px;
   font-weight: bold;
 }
 
 #logo h2 {
-  font-family: 'Yellowtail', cursive;
+  font-family: "Yellowtail", cursive;
   font-size: 38px;
-
 }
 
 #logo p {
   font-size: 10px;
   /* font-weight: 900; */
   color: darkgray;
-
-
 }
 
 p {
   margin-top: 0;
 }
 ul {
-
 }
 a {
-
 }
 a:visited {
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 a:active {
@@ -84,7 +86,12 @@ header {
 
 .gray-divider {
   background: repeating-linear-gradient(
-    45deg, transparent, transparent 1px, darkgray 1px, darkgray 2px);
+    45deg,
+    transparent,
+    transparent 1px,
+    darkgray 1px,
+    darkgray 2px
+  );
   height: 12px;
 }
 
@@ -110,7 +117,7 @@ nav {
 }
 
 .font-oswald {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 #blog-info {
@@ -124,4 +131,30 @@ nav {
 
 .full-width {
   width: 100%;
+}
+
+article p {
+  font-family: "Bitter", serif;
+  text-indent: 30px;
+  line-height: 1.4em;
+  font-weight: bold;
+  color: #4d4646;
+}
+
+#blog-text {
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+#ingredients {
+  font-family: "Patrick Hand", cursive;
+  /* height: 175px; */
+}
+
+#ingredients ul {
+  width: 50%;
+  margin: 35px;
+  color: #4d4646;
+  line-height: 1.5em;
 }
