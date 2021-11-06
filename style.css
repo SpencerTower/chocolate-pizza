@@ -123,6 +123,13 @@ nav {
 #blog-info {
   color: darkgray;
   font-size: 10px;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+main {
+  margin-top: 50px;
 }
 
 #hero {
@@ -149,6 +156,8 @@ article p {
 
 #ingredients {
   font-family: "Patrick Hand", cursive;
+  box-shadow: 1px 1px darkgray;
+  font-size: 1.3em;
   /* height: 175px; */
 }
 
@@ -157,4 +166,53 @@ article p {
   margin: 35px;
   color: #4d4646;
   line-height: 1.5em;
+}
+
+#author-bio {
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+#author-bio > div {
+  width: 63%;
+  color: #4d4646;
+}
+
+h3 {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+button {
+  color: white;
+  background-color: rgb(178, 116, 93);
+  height: 50px;
+  width: 185px;
+  box-shadow: none;
+}
+
+.light-btm-border {
+  width: 45%;
+  height: 1px;
+  background-color: lightgray;
+}
+
+footer div {
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+footer p {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: lightgray;
+  font-size: 12px;
+}
+
+footer {
+  margin-bottom: 50px;
 }
